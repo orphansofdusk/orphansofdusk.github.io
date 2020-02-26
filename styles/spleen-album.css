@@ -70,13 +70,13 @@ body {
 .albumTitle {
     margin-top: 60px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 60px;
     font-family: "Pirata One", sans-serif;
 }
 
 .toc {
     font-family: "Carrois Gothic", sans-serif;
-    font-size: 23;
+    font-size: 36;
 }
 
 .songTitle {
@@ -108,4 +108,7 @@ body {
 .flexJustify {
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-device-width: 480px) {
 }
